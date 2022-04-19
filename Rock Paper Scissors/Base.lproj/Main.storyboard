@@ -91,6 +91,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="imageButton" destination="pRC-fU-tiw" id="tVc-YE-CDK"/>
+                        <outlet property="imageButton2" destination="B4h-SF-yi6" id="8RE-Kq-jzw"/>
+                        <outlet property="paper" destination="72c-cV-nQ5" id="FV2-Ll-wBB"/>
+                        <outlet property="paperButton" destination="gcQ-y0-fgB" id="LbW-6N-lDR"/>
+                        <outlet property="rock" destination="znY-HJ-ILF" id="C4T-FE-35r"/>
+                        <outlet property="rockButton" destination="ODj-zG-idz" id="cL5-oK-HN5"/>
+                        <outlet property="scissors" destination="C2q-2X-wPw" id="KPA-Oq-pCv"/>
+                        <outlet property="scissorsButton" destination="qUz-P1-rmI" id="vpP-ub-58o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
